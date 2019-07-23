@@ -1,34 +1,36 @@
 package NewCoder;
 
-import java.util.ArrayList;
-import java.util.Collections;
+
+//求解连续子数组的最大和比如：{1,4,-10,9,2,-1}。连续子数组最大和为：11。
+
 import java.util.Scanner;
 
 public class ArraySum {
+    public static int maxArr(int n,int []arr){
+        if (arr == null || n <= 0){
+            return -1;
+        }
+        int sum = 0;
+        for (int i = 0;i < arr.length;i++){
+            if (sum <= 0){
+                sum = arr[i];
+            }else {
+                sum += arr[i];
+            }
+        }
+        return sum;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String symbol="ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
-        String number="222333444555666777788899991234567890";
         while (sc.hasNext()){
             int n = sc.nextInt();
-            ArrayList<String> list = new ArrayList<>();
-            for (int i = 0;i < n;i++) {
-                String str = sc.next();
-                str = str.replace("-", ",");
-                String result = "";
-                for (int j = 0; j < 7; j++) {
-                    result += number.charAt(symbol.indexOf(str.charAt(j) + ""));
-                }
-                result = result.substring(0, 3) + "-" + result.substring(3, 7);
-                if (!list.contains(result)) {
-                    list.add(result);
-                }
+            int []num = new int[n];
+            for (int i = 0;i < num.length;i++){
+                num[i] = sc.nextInt();
             }
-            Collections.sort(list);
-            for (int j = 0;j < list.size();j++){
-                System.out.println(list.get(j));
-            }
-            System.out.println();
+            int result = maxArr(n,num);
+            System.out.println(result);
         }
+
     }
 }
