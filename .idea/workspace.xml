@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebdbd77c-ff1a-4eeb-8b86-4189561537c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/review/ConsumeProduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,18 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConsumeProduce.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConsumeProduce.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/review/ConsumeProduce.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-619">
-              <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
+            <state relative-caret-position="323">
+              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#1095#1096#0" expanded="true" />
-                <element signature="e#1114#1115#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/review/Singleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -34,7 +39,7 @@
       <file leaf-file-name="produceConsum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/review/produceConsum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="1224">
               <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
             </state>
           </provider>
@@ -83,6 +88,7 @@
         <option value="$PROJECT_DIR$/src/NewCoder/brotherWord.java" />
         <option value="$PROJECT_DIR$/src/review/produceConsum.java" />
         <option value="$PROJECT_DIR$/src/review/ConsumeProduce.java" />
+        <option value="$PROJECT_DIR$/src/review/Singleton.java" />
       </list>
     </option>
   </component>
@@ -95,7 +101,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="728" />
@@ -107,9 +113,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,17 +131,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="review" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="review" type="462c0819:PsiDirectoryNode" />
-              <item name="produceConsum.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,12 +293,13 @@
       <workItem from="1563954094062" duration="9000" />
       <workItem from="1564126518717" duration="8257000" />
       <workItem from="1564221742403" duration="7669000" />
-      <workItem from="1564312236737" duration="5357000" />
+      <workItem from="1564312236737" duration="5638000" />
+      <workItem from="1564379793307" duration="339000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42872000" />
+    <option name="totallyTimeSpent" value="43492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -307,22 +307,21 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060514" side_tool="true" visible="true" weight="0.44771242" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51664144" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6966717" weight="0.4019608" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.02124183" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48487142" weight="0.41503268" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4924357" weight="0.43137255" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48335856" visible="true" weight="0.0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7928994" visible="true" weight="0.13993949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7941176" visible="true" weight="0.1860817" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.20710059" side_tool="true" visible="true" weight="0.13993949" />
+      <window_info id="Structure" order="1" sideWeight="0.20588236" side_tool="true" visible="true" weight="0.1860817" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -334,6 +333,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +348,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/review/ConsumeProduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/review/produceConsum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/BFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -653,22 +670,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/review/produceConsum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="1224">
           <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/review/ConsumeProduce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-619">
-          <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
+        <state relative-caret-position="323">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1114#1115#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/review/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
