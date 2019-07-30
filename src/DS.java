@@ -116,14 +116,46 @@ public class DS {
             array[k] = temp[k];
         }
     }
-
+    public static int[]  HeapSort(int []arr,int length){
+        //构建二叉堆
+        for (int i = (length-2)/2;i >= 0;i--){
+            arr = DownAdjust(arr,i,length);
+        }
+        for (int i = length-1;i >= 1;i--){
+            int temp = arr[i];
+            arr[i] = arr[0];
+            arr[0] = temp;
+            arr = DownAdjust(arr,0,i);
+        }
+        return arr;
+    }
+    public static int[] DownAdjust(int[] arr,int parent,int length){
+        int temp = arr[parent];
+        int child = 2 * parent +1;
+        while (child < length){
+            if (child + 1 < length && arr[child] > arr[child+1]){
+                child++;
+            }
+            if (temp <= arr[child]){
+                break;
+            }
+            arr[parent] = arr[child];
+            parent = child;
+            child = 2 * parent +1;
+        }
+        arr[parent] = temp;
+        return arr;
+    }
     public static void main(String[] args) {
         int []arr = new int[]{2,3,1,4,5};
         //QuickSort(arr,0,arr.length-1);
         //Bubble(arr);
         //InsertSort(arr);
         //SelectSort(arr);
-        Gap(arr);
+        //Gap(arr);
+        int []temp = new int[arr.length];
+        MergeSort(arr,temp,0,arr.length-1);
+        //HeapSort(arr,arr.length);
         for (int i = 0;i < arr.length;i++){
             System.out.print(arr[i]);
         }

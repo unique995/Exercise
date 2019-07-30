@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebdbd77c-ff1a-4eeb-8b86-4189561537c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +60,8 @@
       <file leaf-file-name="DS.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+            <state relative-caret-position="294">
+              <caret line="156" column="8" selection-start-line="156" selection-start-column="8" selection-end-line="156" selection-end-column="8" />
               <folding>
                 <element signature="method#QuickSort#0;class#DS#0" />
                 <element signature="method#GetMid#0;class#DS#0" />
@@ -70,6 +70,8 @@
                 <element signature="method#SelectSort#0;class#DS#0" />
                 <element signature="method#Shell#0;class#DS#0" />
                 <element signature="method#Gap#0;class#DS#0" />
+                <element signature="method#MergeSort#0;class#DS#0" />
+                <element signature="method#Merge#0;class#DS#0" />
               </folding>
             </state>
           </provider>
@@ -143,7 +145,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="728" />
@@ -328,15 +330,15 @@
       <workItem from="1564379793307" duration="16615000" />
       <workItem from="1564449908901" duration="96000" />
       <workItem from="1564454163152" duration="4880000" />
-      <workItem from="1564471471884" duration="3352000" />
+      <workItem from="1564471471884" duration="4233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68096000" />
+    <option name="totallyTimeSpent" value="68977000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="435" y="0" width="931" height="728" extended-state="0" />
+    <frame x="683" y="0" width="683" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -345,17 +347,17 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5120551" side_tool="true" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.52006423" side_tool="true" visible="true" weight="0.26342282" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6966717" weight="0.4019608" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4879449" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48184568" weight="0.46568626" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48865354" weight="0.34150326" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4799358" visible="true" weight="0.26342282" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7852349" visible="true" weight="0.0" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7835991" visible="true" weight="0.0" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.2147651" side_tool="true" visible="true" weight="0.0" />
+      <window_info id="Structure" order="1" sideWeight="0.2164009" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -732,8 +734,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+        <state relative-caret-position="294">
+          <caret line="156" column="8" selection-start-line="156" selection-start-column="8" selection-end-line="156" selection-end-column="8" />
           <folding>
             <element signature="method#QuickSort#0;class#DS#0" />
             <element signature="method#GetMid#0;class#DS#0" />
@@ -742,6 +744,8 @@
             <element signature="method#SelectSort#0;class#DS#0" />
             <element signature="method#Shell#0;class#DS#0" />
             <element signature="method#Gap#0;class#DS#0" />
+            <element signature="method#MergeSort#0;class#DS#0" />
+            <element signature="method#Merge#0;class#DS#0" />
           </folding>
         </state>
       </provider>
