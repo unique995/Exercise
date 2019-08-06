@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebdbd77c-ff1a-4eeb-8b86-4189561537c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/offer/findArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/replaceNull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/review/List/printFromTailToHead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/List/printFromTailToHead.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="replaceNull.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="replaceNull.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/offer/replaceNull.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="printFromTailToHead.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/review/List/printFromTailToHead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -78,7 +85,6 @@
         <option value="$PROJECT_DIR$/src/review/ConsumeProduce.java" />
         <option value="$PROJECT_DIR$/src/review/Singleton.java" />
         <option value="$PROJECT_DIR$/src/review/List/jiaoList.java" />
-        <option value="$PROJECT_DIR$/src/review/List/printFromTailToHead.java" />
         <option value="$PROJECT_DIR$/src/review/Tree/levelOrder.java" />
         <option value="$PROJECT_DIR$/src/review/Tree/creatTree.java" />
         <option value="$PROJECT_DIR$/src/review/StackQueue/Solution.java" />
@@ -101,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/NewCoder/printJuZhen.java" />
         <option value="$PROJECT_DIR$/src/offer/findArray.java" />
         <option value="$PROJECT_DIR$/src/offer/replaceNull.java" />
+        <option value="$PROJECT_DIR$/src/review/List/printFromTailToHead.java" />
       </list>
     </option>
   </component>
@@ -114,8 +121,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="655" />
-    <option name="width" value="711" />
+    <option name="x" value="693" />
+    <option name="width" value="673" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -145,7 +152,14 @@
               <item name="Exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exercise" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
+              <item name="List" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,22 +187,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.replaceNull">
+  <component name="RunManager" selected="Application.printFromTailToHead">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="Exercise" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="review.Test" />
-      <module name="Exercise" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="review.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -200,6 +203,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="printFromTailToHead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review.List.printFromTailToHead" />
+      <module name="Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="review.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,19 +279,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.printJuZhen" />
       <item itemvalue="Application.findArray" />
       <item itemvalue="Application.replaceNull" />
+      <item itemvalue="Application.printFromTailToHead" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.printFromTailToHead" />
         <item itemvalue="Application.replaceNull" />
         <item itemvalue="Application.findArray" />
         <item itemvalue="Application.printJuZhen" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -309,15 +323,15 @@
       <workItem from="1564815134426" duration="6622000" />
       <workItem from="1564974925900" duration="5138000" />
       <workItem from="1565055613833" duration="3474000" />
-      <workItem from="1565070866129" duration="7919000" />
+      <workItem from="1565070866129" duration="10957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98021000" />
+    <option name="totallyTimeSpent" value="101059000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="683" height="728" extended-state="0" />
+    <frame x="693" y="0" width="673" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -326,17 +340,17 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.52006423" side_tool="true" visible="true" weight="0.11241611" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.32952693" side_tool="true" visible="true" weight="0.11409396" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6966717" weight="0.4019608" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4799358" visible="true" weight="0.11241611" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.64674735" weight="0.4722222" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6704731" visible="true" weight="0.11409396" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6451613" weight="0.39932886" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8695652" visible="true" weight="0.07544141" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8693182" visible="true" weight="0.055464927" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.13043478" side_tool="true" visible="true" weight="0.07544141" />
+      <window_info id="Structure" order="1" sideWeight="0.13068181" side_tool="true" visible="true" weight="0.055464927" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -477,13 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/review/List/printFromTailToHead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -728,8 +735,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/replaceNull.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/review/List/printFromTailToHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
         </state>
       </provider>
     </entry>
