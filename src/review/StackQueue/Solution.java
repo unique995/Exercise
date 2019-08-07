@@ -12,7 +12,7 @@ public class Solution {
 
     public int pop() {
         if (stack2.isEmpty()){
-            while (stack1.isEmpty()){
+            while (!stack1.isEmpty()){
                 stack2.push(stack1.pop());
             }
         }

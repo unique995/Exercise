@@ -2,7 +2,45 @@ import java.util.Scanner;
 
 public class Test {
 
+
+    public static void isSan(double x1,double y1,double x2,double y2,double x3,double y3){
+        double p1 = Math.pow((y2-y1),2);
+        double p2 = Math.pow((x2-x1),2);
+        double a = p1+p2;
+        double a1 = Math.sqrt(a);
+        double p3 = Math.pow((y3-y2),2);
+        double p4 = Math.pow((x3-x2),2);
+        double b = p3+p4;
+        double b1 = Math.sqrt(b);
+        double p5 = Math.pow((y3-y1),2);
+        double p6 = Math.pow((x3-x1),2);
+        double c = p5+p6;
+        double c1 = Math.sqrt(c);
+        if(a1+b1 > c1 || a1+c1 > b1 || b1+c1 > a1){
+            System.out.println(a1+b1+c1);
+            System.out.println((1/2)*(x3-x1)*(x2-x1));
+
+        }else
+            System.out.println("Impossible");
+    }
+    public static int fun(int n){
+        if (n < 2 )
+            return n;
+        return fun(n-1)+fun(n-2);
+    }
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNext()){
+            double x1 = scanner.nextDouble();
+            double y1 = scanner.nextDouble();
+            double x2 = scanner.nextDouble();
+            double y2 = scanner.nextDouble();
+            double x3 = scanner.nextDouble();
+            double y3 = scanner.nextDouble();
+            isSan(x1,y1,x2,y2,x3,y3);
+        }
+
+
 //        Scanner sc = new Scanner(System.in);
 //        int num = sc.nextInt();
 //        while (sc.hasNext()){
@@ -49,17 +87,18 @@ public class Test {
 //                System.out.print(arr[j]+" ");
 //            }
 //        }
-        Scanner scanner = new Scanner(System.in);
-        int sum = scanner.nextInt();
-        int [] array = new int[sum];
-        for (int i = 0;i < sum;i++){
-            array[i] = scanner.nextInt();
-        }
-        int num = scanner.nextInt();
-        while (num != 0){
-            for (int j = 0;j < num;j++){
+//        Scanner scanner = new Scanner(System.in);
+//        int sum = scanner.nextInt();
+//        int [] array = new int[sum];
+//        for (int i = 0;i < sum;i++){
+//            array[i] = scanner.nextInt();
+//        }
+//        int num = scanner.nextInt();
+//        while (num != 0){
+//            for (int j = 0;j < num;j++){
+//
+//            }
+//        }
 
-            }
-        }
     }
 }
