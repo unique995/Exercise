@@ -29,16 +29,28 @@ public class Test {
         return fun(n-1)+fun(n-2);
     }
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        while (scanner.hasNext()){
-            double x1 = scanner.nextDouble();
-            double y1 = scanner.nextDouble();
-            double x2 = scanner.nextDouble();
-            double y2 = scanner.nextDouble();
-            double x3 = scanner.nextDouble();
-            double y3 = scanner.nextDouble();
-            isSan(x1,y1,x2,y2,x3,y3);
-        }
+//        Scanner scanner = new Scanner(System.in);
+//        while (scanner.hasNext()){
+//            double x1 = scanner.nextDouble();
+//            double y1 = scanner.nextDouble();
+//            double x2 = scanner.nextDouble();
+//            double y2 = scanner.nextDouble();
+//            double x3 = scanner.nextDouble();
+//            double y3 = scanner.nextDouble();
+//            isSan(x1,y1,x2,y2,x3,y3);
+//        }
+        Integer num1 = new Integer(10);
+        Integer num2 = new Integer(10);
+        Integer num3 = 10;
+        int num4 = 10;
+        System.out.println(num1 == num2);
+        System.out.println(num1 == new Integer(10));
+        System.out.println(num1.equals(new Integer(10)));
+        System.out.println(num1 == num3);
+        System.out.println(num3 == num4);
+        System.out.println(num1 == num4);
+
+
 
 
 //        Scanner sc = new Scanner(System.in);
