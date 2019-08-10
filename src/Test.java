@@ -1,57 +1,88 @@
 import java.util.Scanner;
 
 public class Test {
-
-
-    public static void isSan(double x1,double y1,double x2,double y2,double x3,double y3){
-        double p1 = Math.pow((y2-y1),2);
-        double p2 = Math.pow((x2-x1),2);
-        double a = p1+p2;
-        double a1 = Math.sqrt(a);
-        double p3 = Math.pow((y3-y2),2);
-        double p4 = Math.pow((x3-x2),2);
-        double b = p3+p4;
-        double b1 = Math.sqrt(b);
-        double p5 = Math.pow((y3-y1),2);
-        double p6 = Math.pow((x3-x1),2);
-        double c = p5+p6;
-        double c1 = Math.sqrt(c);
-        if(a1+b1 > c1 || a1+c1 > b1 || b1+c1 > a1){
-            System.out.println(a1+b1+c1);
-            System.out.println((1/2)*(x3-x1)*(x2-x1));
-
-        }else
-            System.out.println("Impossible");
-    }
-    public static int fun(int n){
-        if (n < 2 )
-            return n;
-        return fun(n-1)+fun(n-2);
-    }
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        if (n >= 0 && n <= 10000){
+            int [] arr = new int[n];
+            while (scanner.hasNext()){
+                for (int i = 0;i < arr.length;i++){
+                    arr[i] = scanner.nextInt();
+                }
+                int count = 0;
+                for (int i = 0;i < arr.length-1;i++){
+                        for (int j = i + 1; j < arr.length-1 ; j++) {
+                            if (arr[i] + arr[j] == n)
+                                count++;
+                            break;
+                        }
+
+                }
+                System.out.println(count);
+
+
+            }
+        }
+
+
+
+
+
 //        Scanner scanner = new Scanner(System.in);
-//        while (scanner.hasNext()){
-//            double x1 = scanner.nextDouble();
-//            double y1 = scanner.nextDouble();
-//            double x2 = scanner.nextDouble();
-//            double y2 = scanner.nextDouble();
-//            double x3 = scanner.nextDouble();
-//            double y3 = scanner.nextDouble();
-//            isSan(x1,y1,x2,y2,x3,y3);
+//        int n = scanner.nextInt();
+//        if (n >2 && n <= 100){
+//            int []arr = new int[n];
+//            while (scanner.hasNext()){
+//                for (int i = 0;i < arr.length;i++){
+//                    arr[i] = scanner.nextInt();
+//                }
+//                int i = 0;
+//                int j = 0;
+//                int []num = new int[2];
+//                for (i = 1;i < arr.length;i++){
+//                    int min = Math.abs((arr[i]-arr[i-1]));
+//                    for (j = 1;j < arr.length;j++){
+//                        if (Math.abs((arr[j]-arr[j-1])) < min){
+//                            min = Math.abs((arr[j]-arr[j-1]));
+//                            num[0] = arr[j-1];
+//                            num[1] = arr[j];
+//                        }
+//                    }
+//                    System.out.println(num[0]+" "+num[1]);
+//                    break;
+//                }
+//            }
 //        }
-        Integer num1 = new Integer(10);
-        Integer num2 = new Integer(10);
-        Integer num3 = 10;
-        int num4 = 10;
-        System.out.println(num1 == num2);
-        System.out.println(num1 == new Integer(10));
-        System.out.println(num1.equals(new Integer(10)));
-        System.out.println(num1 == num3);
-        System.out.println(num3 == num4);
-        System.out.println(num1 == num4);
 
+//        Scanner scanner = new Scanner(System.in);
+//        int N = scanner.nextInt();
+//        if (N >= 2 && N <= 50000){
+//            int []arr = new int[N];
+//            while (scanner.hasNextLine()){
+//                for (int i = 0;i < arr.length;i++){
+//                    arr[i] = scanner.nextInt();
+//                }
+//                int maxLen = 0;
+//                for (int i = 0;i < arr.length;i++){
+//                    int len = 1;
+//                    int tmp = arr[i];
+//                    for (int j = i;j < arr.length-1;j++){
+//                        if (arr[j+1] > tmp){
+//                            len++;
+//                            tmp = arr[j+1];
+//                        }
+//                    }
+//                    if (len > maxLen){
+//                        maxLen = len;
+//                    }
+//                }
+//                System.out.println(maxLen);
+//            }
+//        }
 
-
+    }
+}
 
 //        Scanner sc = new Scanner(System.in);
 //        int num = sc.nextInt();
@@ -111,6 +142,24 @@ public class Test {
 //
 //            }
 //        }
+//public static void isSan(double x1,double y1,double x2,double y2,double x3,double y3){
+//    double p1 = Math.pow((y2-y1),2);
+//    double p2 = Math.pow((x2-x1),2);
+//    double a = p1+p2;
+//    double a1 = Math.sqrt(a);
+//    double p3 = Math.pow((y3-y2),2);
+//    double p4 = Math.pow((x3-x2),2);
+//    double b = p3+p4;
+//    double b1 = Math.sqrt(b);
+//    double p5 = Math.pow((y3-y1),2);
+//    double p6 = Math.pow((x3-x1),2);
+//    double c = p5+p6;
+//    double c1 = Math.sqrt(c);
+//    if(a1+b1 > c1 || a1+c1 > b1 || b1+c1 > a1){
+//        System.out.println(a1+b1+c1);
+//        System.out.println((1/2)*(x3-x1)*(x2-x1));
+//
+//    }else
+//        System.out.println("Impossible");
+//}
 
-    }
-}
