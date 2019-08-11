@@ -1,29 +1,36 @@
 import java.util.Scanner;
 
 public class Test {
+    public static Test t1=new Test();
+    {
+        System.out.println("blockA");
+    }
+    static{
+        System.out.println("blockB");
+    }
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        if (n >= 0 && n <= 10000){
-            int [] arr = new int[n];
-            while (scanner.hasNext()){
-                for (int i = 0;i < arr.length;i++){
-                    arr[i] = scanner.nextInt();
-                }
-                int count = 0;
-                for (int i = 0;i < arr.length-1;i++){
-                        for (int j = i + 1; j < arr.length-1 ; j++) {
-                            if (arr[i] + arr[j] == n)
-                                count++;
-                            break;
-                        }
-
-                }
-                System.out.println(count);
-
-
-            }
-        }
+//        Scanner scanner = new Scanner(System.in);
+//        int n = scanner.nextInt();
+//        if (n >= 0 && n <= 10000){
+//            int [] arr = new int[n];
+//            while (scanner.hasNext()){
+//                for (int i = 0;i < arr.length;i++){
+//                    arr[i] = scanner.nextInt();
+//                }
+//                int count = 0;
+//                for (int i = 0;i < arr.length-1;i++){
+//                        for (int j = i + 1; j < arr.length-1 ; j++) {
+//                            if (arr[i] + arr[j] == n)
+//                                count++;
+//                            break;
+//                        }
+//
+//                }
+//                System.out.println(count);
+//
+//
+//            }
+//        }
 
 
 
@@ -80,7 +87,11 @@ public class Test {
 //                System.out.println(maxLen);
 //            }
 //        }
-
+        char myChar = 'g';
+        String myStr = Character.toString(myChar);
+        System.out.println("String is: "+myStr);
+        myStr = String.valueOf(myChar);
+        System.out.println("String is: "+myStr);
     }
 }
 
