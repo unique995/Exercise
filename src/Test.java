@@ -87,11 +87,7 @@ public class Test {
 //                System.out.println(maxLen);
 //            }
 //        }
-        char myChar = 'g';
-        String myStr = Character.toString(myChar);
-        System.out.println("String is: "+myStr);
-        myStr = String.valueOf(myChar);
-        System.out.println("String is: "+myStr);
+
     }
 }
 
