@@ -41,7 +41,7 @@ public class DS {
         for (i = 1;i < array.length;i++){
             key = array[i];
             for (j = i-1;j >= 0;j--){
-                if(array[j] < key){
+                if(key > array[j]){
                     break;
                 }else
                     array[j+1] = array[j];
@@ -146,6 +146,7 @@ public class DS {
         arr[parent] = temp;
         return arr;
     }
+
     public static void main(String[] args) {
         int []arr = new int[]{2,3,1,4,5};
         //QuickSort(arr,0,arr.length-1);

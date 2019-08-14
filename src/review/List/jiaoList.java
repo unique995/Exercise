@@ -7,7 +7,7 @@ class ListNode {
           val = x;
           next = null;
       }
-  }
+}
 public class jiaoList {
     public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null){
