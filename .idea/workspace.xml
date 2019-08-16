@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebdbd77c-ff1a-4eeb-8b86-4189561537c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/offer/piaoLiuChuan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offer/ThreeBit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,29 +13,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <file leaf-file-name="ThreeBit.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/offer/ThreeBit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#236#287#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="piaoLiuChuan.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/offer/piaoLiuChuan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -61,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/Solution.java" />
         <option value="$PROJECT_DIR$/src/review/testThread.java" />
         <option value="$PROJECT_DIR$/src/review/testReflect.java" />
         <option value="$PROJECT_DIR$/src/NewCoder/pingPong.java" />
@@ -112,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/Singleton.java" />
         <option value="$PROJECT_DIR$/src/offer/piaoLiuChuan.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/offer/ThreeBit.java" />
       </list>
     </option>
   </component>
@@ -125,9 +122,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="683" />
-    <option name="width" value="683" />
-    <option name="height" value="728" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -138,8 +136,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,6 +158,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.piaoLiuChuan">
+  <component name="RunManager" selected="Application.ThreeBit">
     <configuration name="IPLegal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offer.IPLegal" />
       <module name="Exercise" />
@@ -201,6 +199,17 @@
       <module name="Exercise" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="ThreeBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.ThreeBit" />
+      <module name="Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="YouHuiQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offer.YouHuiQ" />
       <module name="Exercise" />
@@ -214,17 +223,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="mergeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="review.List.mergeList" />
-      <module name="Exercise" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="review.List.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="piaoLiuChuan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offer.piaoLiuChuan" />
@@ -277,18 +275,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test (1)" />
-      <item itemvalue="Application.mergeList" />
       <item itemvalue="Application.YouHuiQ" />
       <item itemvalue="Application.IPLegal" />
       <item itemvalue="Application.piaoLiuChuan" />
+      <item itemvalue="Application.ThreeBit" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeBit" />
         <item itemvalue="Application.piaoLiuChuan" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.IPLegal" />
         <item itemvalue="Application.YouHuiQ" />
-        <item itemvalue="Application.mergeList" />
       </list>
     </recent_temporary>
   </component>
@@ -331,12 +329,13 @@
       <workItem from="1565572807700" duration="11000" />
       <workItem from="1565764369957" duration="8616000" />
       <workItem from="1565832502148" duration="2008000" />
-      <workItem from="1565925471410" duration="2982000" />
+      <workItem from="1565925471410" duration="4263000" />
+      <workItem from="1565937127601" duration="1179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155158000" />
+    <option name="totallyTimeSpent" value="157618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -348,17 +347,17 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3441755" side_tool="true" visible="true" weight="0.109477125" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.34493193" side_tool="true" visible="true" weight="0.3888889" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6950241" weight="0.0" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6558245" visible="true" weight="0.109477125" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.7496218" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6550681" visible="true" weight="0.3888889" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.74638844" weight="0.31208053" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7963303" visible="true" weight="0.0" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.20366973" side_tool="true" visible="true" weight="0.0" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7941176" visible="true" weight="0.0" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info id="Structure" order="1" sideWeight="0.20588236" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -411,13 +410,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/review/Tree/levelOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/review/Tree/levalOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
@@ -710,10 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding>
-            <element signature="method#print#0;class#mergeList#0" />
-            <element signature="method#main#0;class#mergeList#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,24 +740,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/piaoLiuChuan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="221">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#236#287#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/piaoLiuChuan.java">
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/ThreeBit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
