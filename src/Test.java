@@ -1,14 +1,10 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Test {
-    public static Test t1=new Test();
-    {
-        System.out.println("blockA");
-    }
-    static{
-        System.out.println("blockB");
-    }
     public static void main(String[] args) {
+
+
 //        Scanner scanner = new Scanner(System.in);
 //        int n = scanner.nextInt();
 //        if (n >= 0 && n <= 10000){
