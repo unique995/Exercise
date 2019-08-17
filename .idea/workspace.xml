@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebdbd77c-ff1a-4eeb-8b86-4189561537c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/offer/ThreeBit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/ThreeBit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/ThreeBit.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +31,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThreeBit.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/offer/ThreeBit.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            <state relative-caret-position="170">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DS.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="134" column="31" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
+              <folding>
+                <element signature="method#QuickSort#0;class#DS#0" />
+                <element signature="method#GetMid#0;class#DS#0" />
+                <element signature="method#Bubble#0;class#DS#0" />
+                <element signature="method#InsertSort#0;class#DS#0" />
+                <element signature="method#SelectSort#0;class#DS#0" />
+                <element signature="method#Shell#0;class#DS#0" />
+                <element signature="method#Gap#0;class#DS#0" />
+                <element signature="method#HeapSort#0;class#DS#0" />
+                <element signature="method#DownAdjust#0;class#DS#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,12 +128,12 @@
         <option value="$PROJECT_DIR$/src/offer/IPLegal.java" />
         <option value="$PROJECT_DIR$/src/review/List/jiaoList.java" />
         <option value="$PROJECT_DIR$/src/review/List/printFromTailToHead.java" />
-        <option value="$PROJECT_DIR$/src/DS.java" />
         <option value="$PROJECT_DIR$/src/review/danLi.java" />
         <option value="$PROJECT_DIR$/src/Singleton.java" />
         <option value="$PROJECT_DIR$/src/offer/piaoLiuChuan.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/offer/ThreeBit.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/DS.java" />
       </list>
     </option>
   </component>
@@ -121,11 +146,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="683" />
+    <option name="width" value="683" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -135,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,18 +171,13 @@
               <item name="Exercise" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,7 +200,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreeBit">
+  <component name="RunManager" selected="Application.DS">
+    <configuration name="DS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DS" />
+      <module name="Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="IPLegal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offer.IPLegal" />
       <module name="Exercise" />
@@ -201,17 +224,6 @@
     </configuration>
     <configuration name="ThreeBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offer.ThreeBit" />
-      <module name="Exercise" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="YouHuiQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.YouHuiQ" />
       <module name="Exercise" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -275,18 +287,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test (1)" />
-      <item itemvalue="Application.YouHuiQ" />
       <item itemvalue="Application.IPLegal" />
       <item itemvalue="Application.piaoLiuChuan" />
       <item itemvalue="Application.ThreeBit" />
+      <item itemvalue="Application.DS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DS" />
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.ThreeBit" />
         <item itemvalue="Application.piaoLiuChuan" />
-        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.IPLegal" />
-        <item itemvalue="Application.YouHuiQ" />
       </list>
     </recent_temporary>
   </component>
@@ -330,39 +342,40 @@
       <workItem from="1565764369957" duration="8616000" />
       <workItem from="1565832502148" duration="2008000" />
       <workItem from="1565925471410" duration="4263000" />
-      <workItem from="1565937127601" duration="1179000" />
+      <workItem from="1565937127601" duration="15348000" />
+      <workItem from="1566005150093" duration="2380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157618000" />
+    <option name="totallyTimeSpent" value="174167000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="683" y="0" width="683" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4975923" weight="0.5922819" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
+      <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.34493193" side_tool="true" visible="true" weight="0.3888889" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3515249" side_tool="true" visible="true" weight="0.11912752" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6950241" weight="0.0" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6550681" visible="true" weight="0.3888889" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.74638844" weight="0.31208053" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6484751" visible="true" weight="0.11912752" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.7450832" weight="0.0" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7941176" visible="true" weight="0.0" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.7904762" visible="true" weight="0.0" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info id="Structure" order="1" sideWeight="0.20588236" side_tool="true" visible="true" weight="0.0" />
+      <window_info id="Structure" order="0" sideWeight="0.20952381" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.868984" weight="0.36744967" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.76475036" weight="0.32843137" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -406,7 +419,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -702,6 +715,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <element signature="method#print#0;class#mergeList#0" />
+            <element signature="method#main#0;class#mergeList#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -726,13 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -750,20 +760,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/ThreeBit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="170">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/ThreeBit.java">
+    <entry file="file://$PROJECT_DIR$/src/DS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="34">
+          <caret line="134" column="31" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
+          <folding>
+            <element signature="method#QuickSort#0;class#DS#0" />
+            <element signature="method#GetMid#0;class#DS#0" />
+            <element signature="method#Bubble#0;class#DS#0" />
+            <element signature="method#InsertSort#0;class#DS#0" />
+            <element signature="method#SelectSort#0;class#DS#0" />
+            <element signature="method#Shell#0;class#DS#0" />
+            <element signature="method#Gap#0;class#DS#0" />
+            <element signature="method#HeapSort#0;class#DS#0" />
+            <element signature="method#DownAdjust#0;class#DS#0" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -85,36 +85,46 @@ public class DS {
                 break;
         }
     }
-    public static void MergeSort(int []array,int []temp,int left,int right){
-        if (left < right){
-            int mid = (left + right)/2;
-            MergeSort(array,temp,left,mid);
-            MergeSort(array,temp,mid+1,right);
-            Merge(array,temp,left,mid,right);
-        }
+    public static void MergeSort(int []array,int left,int right){
+        if (left >= right)
+            return;
+        int mid = (left+ right)/2;
+        int start1 = left;
+        int end1 = mid;
+        int start2 = mid+1;
+        int end2 = right;
+        MergeSort(array,start1,end1);
+        MergeSort(array,start2,end2);
+        Merge(array,start1,end1,start2,end2);
     }
-    public static void Merge(int []array,int []temp,int left,int mid,int right){
+
+    public static void Merge(int []array,int start1,int end1,int start2,int end2){
+
         /*
         如果左边数组arr[left...mid]中的元素取完，则直接copy右边数组的元素到辅助数组
         右边同理
         我只要不断地取出两个有序数组中比较小的那一个放在一个辅助数组中（通过比较）
          */
-        int i = left;
-        int j = mid+1;
-        for (int k = left;k <= right;k++){
-            if (i > mid){
-                temp[k] = array[j++];
-            }else if (j > right){
-                temp[k] = array[i++];
-            }else if (array[i] <= array[j]){
-                temp[k] = array[i++];
+        int []temp = new int[end2-start1+1];
+        int i = 0;
+        int start = start1;
+        while (start1 <= end1 && start2 <= end2){
+            if (array[start1] < array[start2]){
+                temp[i++] = array[start1++];
             }else {
-                temp[k] = array[j++];
+                temp[i++] = array[start2++];
             }
         }
-        for (int k = left;k <= right;k++){
-            array[k] = temp[k];
+        while (start1 <= end1){
+            temp[i++] = array[start1++];
         }
+        while (start2 <= end2){
+            temp[i++] = array[start2++];
+        }
+        for (int j = 0;j < temp.length;j++){
+            array[start+j] = temp[j];
+        }
+
     }
     public static int[]  HeapSort(int []arr,int length){
         //构建二叉堆
@@ -154,8 +164,7 @@ public class DS {
         //InsertSort(arr);
         //SelectSort(arr);
         //Gap(arr);
-        int []temp = new int[arr.length];
-        MergeSort(arr,temp,0,arr.length-1);
+        MergeSort(arr,0,arr.length-1);
         //HeapSort(arr,arr.length);
         for (int i = 0;i < arr.length;i++){
             System.out.print(arr[i]);

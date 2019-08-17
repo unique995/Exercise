@@ -2,7 +2,102 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Test {
+    public static int Search(int []arr,int num){
+        int l = 0;
+        int r = arr.length-1;
+        while (l <= r){
+            int mid = l + (r-l)/2;
+            if (arr[mid] < num){
+                l = mid+1;
+            }else if(arr[mid] > num){
+                l = mid-1;
+            }else {
+                return mid;
+            }
+        }
+        return -1;
+    }
     public static void main(String[] args) {
+        String str = "爱讯飞789swr1wwen34ifly65tek";
+        char []arr = str.toCharArray();
+        char []arrs = new char[arr.length];
+        int j = 0;
+        int count = 0;
+        for (int i = 0;i < arr.length;i++){
+            if (arr[i] >= '0' && arr[i] <= '9'){
+                arrs[j++] = arr[i];
+                count++;
+            }
+
+        }
+        if (count == 0){
+            System.out.println("-1");
+        }else {
+            Arrays.sort(arrs);
+            for (int i = arrs.length-count;i < arrs.length;i++){
+                System.out.print(arrs[i]);
+            }
+        }
+       // Scanner scanner = new Scanner(System.in);
+       // while (scanner.hasNext()){
+//            char []arr = scanner.next().toCharArray();
+//            char []arrs = new char[arr.length];
+//            int j = 0;
+//            int count = 0;
+//            for (int i = 0;i < arr.length;i++){
+//                if (arr[i] >= '0' && arr[i] <= '9'){
+//                    arrs[j++] = arr[i];
+//                    count++;
+//                }
+//
+//            }
+//            if (count == 0){
+//                System.out.println("-1");
+//            }else {
+//                Arrays.sort(arrs);
+//                for (int i = arrs.length-count;i < arrs.length;i++){
+//                    System.out.print(arrs[i]);
+//                }
+//            }
+
+        //}
+
+//       int []arr = {11,13,15,17,19,21};
+//       int num = 19;
+//       int key = Search(arr,19);
+//       if (key >= 0){
+//           System.out.println(key+1);
+//       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //        Scanner scanner = new Scanner(System.in);
