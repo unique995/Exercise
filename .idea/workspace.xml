@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebdbd77c-ff1a-4eeb-8b86-4189561537c1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/NewCoder/BasketBall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/ThreeBit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/ThreeBit.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,33 +29,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <file leaf-file-name="BasketBall.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NewCoder/BasketBall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="400">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DS.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="134" column="31" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
-              <folding>
-                <element signature="method#QuickSort#0;class#DS#0" />
-                <element signature="method#GetMid#0;class#DS#0" />
-                <element signature="method#Bubble#0;class#DS#0" />
-                <element signature="method#InsertSort#0;class#DS#0" />
-                <element signature="method#SelectSort#0;class#DS#0" />
-                <element signature="method#Shell#0;class#DS#0" />
-                <element signature="method#Gap#0;class#DS#0" />
-                <element signature="method#HeapSort#0;class#DS#0" />
-                <element signature="method#DownAdjust#0;class#DS#0" />
+                <element signature="e#322#339#0" expanded="true" />
+                <element signature="e#389#406#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/review/testThread.java" />
         <option value="$PROJECT_DIR$/src/review/testReflect.java" />
         <option value="$PROJECT_DIR$/src/NewCoder/pingPong.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/overHalf.java" />
@@ -134,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/offer/ThreeBit.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/DS.java" />
+        <option value="$PROJECT_DIR$/src/NewCoder/BasketBall.java" />
       </list>
     </option>
   </component>
@@ -171,13 +151,19 @@
               <item name="Exercise" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="NewCoder" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,12 +329,14 @@
       <workItem from="1565832502148" duration="2008000" />
       <workItem from="1565925471410" duration="4263000" />
       <workItem from="1565937127601" duration="15348000" />
-      <workItem from="1566005150093" duration="2380000" />
+      <workItem from="1566005150093" duration="2933000" />
+      <workItem from="1566013748668" duration="1322000" />
+      <workItem from="1566031165335" duration="901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174167000" />
+    <option name="totallyTimeSpent" value="176943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="683" height="728" extended-state="0" />
@@ -356,21 +344,20 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4975923" weight="0.5922819" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3515249" side_tool="true" visible="true" weight="0.11912752" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.26003212" side_tool="true" visible="true" weight="0.045302015" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6950241" weight="0.0" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6484751" visible="true" weight="0.11912752" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.7450832" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6484751" weight="0.17114094" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.7399679" visible="true" weight="0.045302015" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.7904762" visible="true" weight="0.0" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.78558874" visible="true" weight="0.0" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info id="Structure" order="0" sideWeight="0.20952381" side_tool="true" visible="true" weight="0.0" />
+      <window_info id="Structure" order="0" sideWeight="0.21441124" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -378,6 +365,7 @@
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.76475036" weight="0.32843137" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4975923" weight="0.5922819" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -423,13 +411,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/review/Tree/levalOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NewCoder/brotherWord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -612,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NewCoder/printJuZhen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/review/Tree/mirrorTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -715,10 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding>
-            <element signature="method#print#0;class#mergeList#0" />
-            <element signature="method#main#0;class#mergeList#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,9 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -779,8 +746,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="134" column="31" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
+        <state relative-caret-position="313">
+          <caret line="168" column="37" selection-start-line="168" selection-start-column="37" selection-end-line="168" selection-end-column="37" />
           <folding>
             <element signature="method#QuickSort#0;class#DS#0" />
             <element signature="method#GetMid#0;class#DS#0" />
@@ -791,6 +758,25 @@
             <element signature="method#Gap#0;class#DS#0" />
             <element signature="method#HeapSort#0;class#DS#0" />
             <element signature="method#DownAdjust#0;class#DS#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NewCoder/printJuZhen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NewCoder/BasketBall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#322#339#0" expanded="true" />
+            <element signature="e#389#406#0" expanded="true" />
           </folding>
         </state>
       </provider>
