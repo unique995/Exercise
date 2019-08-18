@@ -18,26 +18,26 @@ public class Test {
         return -1;
     }
     public static void main(String[] args) {
-        String str = "爱讯飞789swr1wwen34ifly65tek";
-        char []arr = str.toCharArray();
-        char []arrs = new char[arr.length];
-        int j = 0;
-        int count = 0;
-        for (int i = 0;i < arr.length;i++){
-            if (arr[i] >= '0' && arr[i] <= '9'){
-                arrs[j++] = arr[i];
-                count++;
-            }
-
-        }
-        if (count == 0){
-            System.out.println("-1");
-        }else {
-            Arrays.sort(arrs);
-            for (int i = arrs.length-count;i < arrs.length;i++){
-                System.out.print(arrs[i]);
-            }
-        }
+//        String str = "爱讯飞789swr1wwen34ifly65tek";
+//        char []arr = str.toCharArray();
+//        char []arrs = new char[arr.length];
+//        int j = 0;
+//        int count = 0;
+//        for (int i = 0;i < arr.length;i++){
+//            if (arr[i] >= '0' && arr[i] <= '9'){
+//                arrs[j++] = arr[i];
+//                count++;
+//            }
+//
+//        }
+//        if (count == 0){
+//            System.out.println("-1");
+//        }else {
+//            Arrays.sort(arrs);
+//            for (int i = arrs.length-count;i < arrs.length;i++){
+//                System.out.print(arrs[i]);
+//            }
+//        }
        // Scanner scanner = new Scanner(System.in);
        // while (scanner.hasNext()){
 //            char []arr = scanner.next().toCharArray();
@@ -178,6 +178,9 @@ public class Test {
 //                System.out.println(maxLen);
 //            }
 //        }
+
+
+
 
     }
 }
