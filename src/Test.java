@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+
 public class Test {
     public static int Search(int []arr,int num){
         int l = 0;
@@ -18,6 +19,7 @@ public class Test {
         return -1;
     }
     public static void main(String[] args) {
+
 //        String str = "爱讯飞789swr1wwen34ifly65tek";
 //        char []arr = str.toCharArray();
 //        char []arrs = new char[arr.length];

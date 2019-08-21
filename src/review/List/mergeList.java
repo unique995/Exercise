@@ -48,6 +48,27 @@ public class mergeList {
             last.next = cur2;
         return result;
     }
+    public static ListNode Merge2(ListNode list1,ListNode list2){
+        ListNode l1 = list1;
+        ListNode l2 = list2;
+        ListNode first = new ListNode(-1);
+        ListNode tail = first;
+        while (l1 !=null && l2 != null){
+            if (l1.val >= l2.val){
+                tail.next = l2;
+                tail = l2;
+            }else {
+                tail.next = l1;
+                tail = l1;
+            }
+        }
+        if (l1 != null){
+            tail.next = l1;
+        }else {
+            tail.next = l2;
+        }
+        return first.next;
+    }
     public static void print(ListNode head){
         while(head != null){
             System.out.println(head.val);
