@@ -20,21 +20,7 @@ public class removeAll {
         del.next = null;
         return tail.next;
     }
-    public static ListNode reversee(ListNode head){
-        if (head == null){
-            return null;
-        }
-        ListNode cur = head;
-        ListNode node = null;
-        ListNode result = null;
-        while (cur != null){
-            node = cur;
-            cur = cur.next;
-            node.next = result;
-            result = node;
-        }
-        return result;
-    }
+
     public static void main(String[] args) {
 
     }
