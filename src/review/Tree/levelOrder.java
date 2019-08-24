@@ -39,6 +39,24 @@ public class levelOrder {
         return result;
     }
 
+
+    public void levelOrder(TreeNode root) {
+        if (root == null){
+            return ;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()){
+            TreeNode front = queue.poll();
+            System.out.println(front.val);
+            if (front.left != null){
+                queue.add(front.left);
+            }
+            if (front.right != null){
+                queue.add(front.right);
+            }
+        }
+    }
     public static void main(String[] args) {
 
     }

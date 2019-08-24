@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebdbd77c-ff1a-4eeb-8b86-4189561537c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/review/Tree/countNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/review/Tree/levelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/Tree/levelOrder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,13 +26,32 @@
     <expand />
     <select />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="Trees.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/../../每日一题/每日一题二/2019-08-23-复习/src/Trees.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="255">
+                    <caret line="78" selection-start-line="78" selection-end-line="78" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="copyList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/review/List/copyList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+            <state relative-caret-position="610">
+              <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
               <folding>
                 <element signature="method#copy1#0;class#copyList#0" />
               </folding>
@@ -41,20 +59,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Trees.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../每日一题/每日一题二/2019-08-23-复习/src/Trees.java">
+      <file leaf-file-name="levelOrder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/review/Tree/levelOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="220">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="countNodes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/review/Tree/countNodes.java">
+      <file leaf-file-name="levalOrder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/review/Tree/levalOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -105,7 +123,6 @@
         <option value="$PROJECT_DIR$/src/review/produceConsum.java" />
         <option value="$PROJECT_DIR$/src/review/ConsumeProduce.java" />
         <option value="$PROJECT_DIR$/src/review/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/review/Tree/levelOrder.java" />
         <option value="$PROJECT_DIR$/src/review/Tree/creatTree.java" />
         <option value="$PROJECT_DIR$/src/review/List/findKNode.java" />
         <option value="$PROJECT_DIR$/src/review/Tree/mirrorTree.java" />
@@ -149,8 +166,9 @@
         <option value="$PROJECT_DIR$/src/review/List/mergeList.java" />
         <option value="$PROJECT_DIR$/src/review/List/removeAll.java" />
         <option value="$PROJECT_DIR$/src/review/List/copyList.java" />
-        <option value="$PROJECT_DIR$/src/review/Tree/countNodes.java" />
         <option value="$PROJECT_DIR$/../../每日一题/每日一题二/2019-08-23-复习/src/Trees.java" />
+        <option value="$PROJECT_DIR$/src/review/Tree/countNodes.java" />
+        <option value="$PROJECT_DIR$/src/review/Tree/levelOrder.java" />
       </list>
     </option>
   </component>
@@ -164,6 +182,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -201,6 +221,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="review" type="462c0819:PsiDirectoryNode" />
               <item name="Tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="levelOrder.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -381,12 +409,12 @@
       <workItem from="1566282588405" duration="7163000" />
       <workItem from="1566357174037" duration="2869000" />
       <workItem from="1566377912705" duration="395000" />
-      <workItem from="1566629579190" duration="1342000" />
+      <workItem from="1566629579190" duration="4550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198985000" />
+    <option name="totallyTimeSpent" value="202193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -397,17 +425,17 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.23676248" side_tool="true" visible="true" weight="0.1388889" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.23676248" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64674735" weight="0.29248366" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6950241" weight="0.0" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.76323754" visible="true" weight="0.1388889" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.76323754" visible="true" weight="0.0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.57495254" visible="true" weight="0.16565809" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.5751634" visible="true" weight="0.0" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info id="Structure" order="0" sideWeight="0.42504743" side_tool="true" visible="true" weight="0.16565809" />
+      <window_info id="Structure" order="0" sideWeight="0.4248366" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -461,20 +489,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/NewCoder/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NewCoder/turnDay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NewCoder/getNumberOfK.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -775,6 +789,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="method#Merge#0;class#mergeList#0" />
+            <element signature="method#Merge1#0;class#mergeList#0" />
+            <element signature="method#Merge2#0;class#mergeList#0" />
+            <element signature="method#print#0;class#mergeList#0" />
+            <element signature="method#main#0;class#mergeList#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -805,27 +826,41 @@
     <entry file="file://$PROJECT_DIR$/../../每日一题/每日一题二/2019-08-23-复习/src/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/review/Tree/countNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/review/List/copyList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        <state relative-caret-position="610">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
           <folding>
             <element signature="method#copy1#0;class#copyList#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/review/Tree/countNodes.java">
+    <entry file="file://$PROJECT_DIR$/src/review/Tree/levalOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../每日一题/每日一题二/2019-08-23-复习/src/Trees.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="255">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/review/Tree/levelOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
         </state>
       </provider>
     </entry>
