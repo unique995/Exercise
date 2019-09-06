@@ -68,9 +68,56 @@ public class diver {
         Arrays.sort(min);
         return min[0];
     }
+    public static void Run(int M,int S,int T){
+        int len = 0;
+        int time = 0;
+        if (S == 0){
+            System.out.println("Yes");
+            System.out.println(0);
+        }else if (T == 0){
+            System.out.println("No");
+            System.out.println(0);
+        }
+        while(len < S && time < T){
+            if (M >= 10){
+                len += 50;
+                time++;
+                M -= 10;
+            }else if (M >= 6 && T-time >= 2 && S - len > 26){
+                len += 50;
+                time += 2;
+                M -= 6;
+            }else if (M >= 2 && T-time >= 3 && S - len > 39){
+                len  += 60;
+                time += 3;
+                M -= 2;
+            }else if (T-time >= 7 && S - len >= 100){
+                len += 120;
+                time += 7;
+            }else {
+                int a = T-time;
+                int b = (S-len+16)/13;
+                int c = a < b ?a : b;
+                len += c *13;
+                time += c;
+            }
+        }
+        if (len >= S){
+            System.out.println("Yes");
+            System.out.println(time);
+        }else {
+            System.out.println("No");
+            System.out.println(len);
+        }
+    }
     public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int x = sc.nextInt();
+//        System.out.println(Num1(x));
         Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
-        System.out.println(Num1(x));
+        int M = sc.nextInt();
+        int S = sc.nextInt();
+        int T = sc.nextInt();
+        Run(M,S,T);
     }
 }
