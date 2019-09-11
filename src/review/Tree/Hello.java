@@ -65,7 +65,20 @@ public class Hello {
 //        }
 //        System.out.println(fun(arr));
 //    }
-public static void main(String[] args) {
+    public static void Replace(String str1,String str2){
+        String str = "["+str2+"]";
 
+        str1 = str1.replaceAll(str,"");
+
+        System.out.println(str1);
+    }
+public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+//        String str1 = sc.next();
+//        String str2 = sc.next();
+//        Replace(str1,str2);
+    while (sc.hasNext()){
+        int num = sc.nextInt();
+    }
 }
 }
