@@ -32,11 +32,13 @@
       <file leaf-file-name="Hello.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/review/Tree/Hello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="67" column="47" lean-forward="true" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
+            <state relative-caret-position="420">
+              <caret line="96" column="9" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="96" selection-end-column="9" />
               <folding>
-                <element signature="method#Func#0;class#Hello#0" />
-                <element signature="method#fun#0;class#Hello#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2209#2210#0" expanded="true" />
+                <element signature="e#2233#2234#0" expanded="true" />
+                <element signature="e#2338#2378#0" />
               </folding>
             </state>
           </provider>
@@ -125,9 +127,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="759" />
-    <option name="width" value="607" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="473" />
+    <option name="width" value="879" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -155,8 +157,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,15 +359,16 @@
       <workItem from="1567777596979" duration="2616000" />
       <workItem from="1567936104312" duration="1849000" />
       <workItem from="1567940700131" duration="3425000" />
-      <workItem from="1568203455990" duration="1770000" />
+      <workItem from="1568203455990" duration="2554000" />
+      <workItem from="1568254684051" duration="3036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238537000" />
+    <option name="totallyTimeSpent" value="242357000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="473" y="0" width="879" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -379,17 +382,17 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6950241" weight="0.0" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6459909" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.75340396" weight="0.39379084" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.75340396" weight="0.38590604" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.79738563" visible="true" weight="0.33509833" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.79738563" visible="true" weight="0.024420025" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
       <window_info id="Structure" order="0" sideWeight="0.20261438" side_tool="true" weight="0.16944024" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.76475036" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.76475036" weight="0.32718122" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -400,22 +403,22 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6950241" weight="0.0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6459909" weight="0.29248366" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6950241" weight="0.0" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" id="SciView" order="8" />
       <window_info id="Structure" order="0" sideWeight="0.20261438" side_tool="true" visible="true" weight="0.16944024" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6459909" weight="0.29248366" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.79738563" visible="true" weight="0.16944024" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.75340396" visible="true" weight="0.0" />
@@ -424,10 +427,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.24659607" side_tool="true" visible="true" weight="0.0" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4975923" weight="0.5922819" />
       <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.79738563" visible="true" weight="0.16944024" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -810,11 +813,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/review/Tree/Hello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="67" column="47" lean-forward="true" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
+        <state relative-caret-position="420">
+          <caret line="96" column="9" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="96" selection-end-column="9" />
           <folding>
-            <element signature="method#Func#0;class#Hello#0" />
-            <element signature="method#fun#0;class#Hello#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2209#2210#0" expanded="true" />
+            <element signature="e#2233#2234#0" expanded="true" />
+            <element signature="e#2338#2378#0" />
           </folding>
         </state>
       </provider>

@@ -1,6 +1,7 @@
 package review.Tree;
 
 
+import java.math.BigInteger;
 import java.util.Scanner;
 public class Hello {
     public static int Func(int []arr){
@@ -72,13 +73,58 @@ public class Hello {
 
         System.out.println(str1);
     }
-public static void main(String[] args) {
+    public static long Sum(long x,long y){
+        return x+y;
+    }
+    public static void Tar(String str){
+        if (str == null){
+            return ;
+        }else {
+            char c = str.charAt(0);
+            StringBuilder sb = new StringBuilder();
+            int count = 1;
+            for (int i = 1;i < str.length();i++){
+                if (c == str.charAt(i)){
+                    count++;
+                }else {
+                    sb.append(count).append(c);
+                    c = str.charAt(i);
+                    count = 1;
+                }
+            }
+            sb.append(count).append(c);
+            System.out.println(sb.toString());
+        }
+//        char[]arr = str.toCharArray();
+//        StringBuilder sb = new StringBuilder();
+//        int temp = 0;
+//        for (int i = 0;i < arr.length;i+=temp){
+//            int count = 1;
+//            for (int j = i+1;j < arr.length;j++){
+//                if (arr[i] == arr[j]){
+//                    count++;
+//                    temp = count;
+//                }else{
+//                    break;
+//                }
+//            }
+//            sb.append(count).append(arr[i]);
+//        }
+        //return sb.toString();
+    }
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        long x = sc.nextInt();
+        long y = sc.nextInt();
+        Sum(x,y);
+    //String str = sc.next();
+    //System.out.println(Tar(str));
+    //Tar(str);
 //        String str1 = sc.next();
 //        String str2 = sc.next();
 //        Replace(str1,str2);
-    while (sc.hasNext()){
-        int num = sc.nextInt();
-    }
+//    while (sc.hasNext()){
+//        int num = sc.nextInt();
+//    }
 }
 }
