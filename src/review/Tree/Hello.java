@@ -2,6 +2,7 @@ package review.Tree;
 
 
 import java.math.BigInteger;
+import java.util.Arrays;
 import java.util.Scanner;
 public class Hello {
     public static int Func(int []arr){
@@ -112,12 +113,27 @@ public class Hello {
 //        }
         //return sb.toString();
     }
+    public static void statisticSubStr(String s){
+        char []arr = s.toCharArray();
+        Arrays.sort(arr);
+        int temp = 0;
+        for (int i = 0;i < arr.length;i+=temp){
+            int count = 1;
+            for (int j = i+1;j < arr.length;j++){
+                if (arr[i] == arr[j]){
+                    count++;
+                    temp = count;
+                }else {
+                    break;
+                }
+            }
+            System.out.println(arr[i]+":"+count);
+        }
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        long x = sc.nextInt();
-        long y = sc.nextInt();
-        Sum(x,y);
-    //String str = sc.next();
+        String str = sc.next();
+        statisticSubStr(str);
     //System.out.println(Tar(str));
     //Tar(str);
 //        String str1 = sc.next();
