@@ -130,10 +130,23 @@ public class Hello {
             System.out.println(arr[i]+":"+count);
         }
     }
+    public static int getLen(String str){
+        if (str == null || str.length() == 0){
+            return 0;
+        }
+        for (int i = str.length();i >= 0;i--){
+            for (int j = 0;j+i <= str.length();j++){
+                if (str.substring(j,j+i).equals(new StringBuffer(str.substring(j,j+i)).reverse().toString()));
+                return i;
+            }
+        }
+        return 0;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
-        statisticSubStr(str);
+        System.out.println(getLen(str));
+        //statisticSubStr(str);
     //System.out.println(Tar(str));
     //Tar(str);
 //        String str1 = sc.next();
