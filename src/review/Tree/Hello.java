@@ -2,7 +2,9 @@ package review.Tree;
 
 
 import java.math.BigInteger;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 public class Hello {
     public static int Func(int []arr){
@@ -55,18 +57,6 @@ public class Hello {
         }
         return max;
     }
-//    public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        int len = sc.nextInt();
-//        int []arr = new int[len];
-////        for (int i = 0;i < len;i++){
-////            arr[i] = sc.nextInt();
-////        }
-//        for (int i = arr.length-1;i >= 0;i--){
-//            arr[i] = sc.nextInt();
-//        }
-//        System.out.println(fun(arr));
-//    }
     public static void Replace(String str1,String str2){
         String str = "["+str2+"]";
 
@@ -142,18 +132,43 @@ public class Hello {
         }
         return 0;
     }
+    public static int JH(int n,int m){
+        int p = 0;
+        for (int i = 2;i <= n;i++){
+            p = (p+m)%i;
+        }
+        return p+1;
+    }
+    public static int CountWays(int m,int n){
+        int [][]arr = new int[m][n];
+        for (int i = 0;i < m;i++){
+            arr[i][0] = 1;
+        }
+        for (int j = 0;j < n;j++){
+            arr[0][j] = 1;
+        }
+        for (int i = 1;i < arr.length;i++){
+            for (int j = 1;j < arr[0].length;j++){
+               arr[i][j] = arr[i][j-1]+arr[i-1][j];
+            }
+        }
+        return arr[m-1][n-1];
+    }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String str = sc.next();
-        System.out.println(getLen(str));
-        //statisticSubStr(str);
-    //System.out.println(Tar(str));
-    //Tar(str);
-//        String str1 = sc.next();
-//        String str2 = sc.next();
-//        Replace(str1,str2);
-//    while (sc.hasNext()){
+//        Scanner sc = new Scanner(System.in);
 //        int num = sc.nextInt();
-//    }
-}
+//        int count = 0;
+//        while (num != 0){
+//            if ((num & 1) == 1){
+//                count++;
+//            }
+//            num = num >> 1;
+//        }
+//        System.out.println(count);
+        Scanner sc = new Scanner(System.in);
+        int m = sc.nextInt();
+        int n = sc.nextInt();
+        CountWays( m, n);
+        System.out.println(CountWays(m,n));
+    }
 }
