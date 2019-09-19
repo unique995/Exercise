@@ -18,7 +18,42 @@ public class Test {
         }
         return -1;
     }
+    public static int Fun(int num){
+        int sum = 1;
+        for (int i = 1;i <= num;i++){
+            sum *= i;
+        }
+        return sum;
+    }
+    public static void Tail(int num){
+        int sum = Fun(num);
+        String str = String.valueOf(sum);
+        char []arr = str.toCharArray();
+        for (int i = arr.length-1;i >= 0;i--){
+            if (arr[i] != '0'){
+                System.out.println(arr[i]);
+                break;
+            }
+        }
+    }
+
+    public static void Spilt(int num){
+        int [][]arr = new int[num+1][num+1];
+        for (int i = 0;i < (num+1);i++){
+
+        }
+        System.out.println();
+    }
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        Spilt(n);
+
+
+
+
+
+
 
 //        String str = "爱讯飞789swr1wwen34ifly65tek";
 //        char []arr = str.toCharArray();
